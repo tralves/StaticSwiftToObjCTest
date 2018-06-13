@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <PlayKit/PlayKit-Swift.h>
 
 @interface AppDelegate ()
 

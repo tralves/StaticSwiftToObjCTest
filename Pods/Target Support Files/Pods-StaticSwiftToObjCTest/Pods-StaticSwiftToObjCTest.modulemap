@@ -1,0 +1,6 @@
+module Pods_StaticSwiftToObjCTest {
+  umbrella header "Pods-StaticSwiftToObjCTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

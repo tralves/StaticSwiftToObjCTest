@@ -1,0 +1,6 @@
+module KalturaNetKit {
+  umbrella header "KalturaNetKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module PlayKit {
+  umbrella header "PlayKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

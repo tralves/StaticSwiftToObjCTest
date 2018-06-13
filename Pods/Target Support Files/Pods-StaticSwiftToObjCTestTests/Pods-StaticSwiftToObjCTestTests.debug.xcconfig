@@ -1,0 +1,10 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KalturaNetKit" "${PODS_CONFIGURATION_BUILD_DIR}/Log" "${PODS_CONFIGURATION_BUILD_DIR}/PlayKit" "${PODS_CONFIGURATION_BUILD_DIR}/PlayKitUtils" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyXMLParser"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/KalturaNetKit/KalturaNetKit.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Log/Log.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/PlayKit/PlayKit.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/PlayKitUtils/PlayKitUtils.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftyXMLParser/SwiftyXMLParser.modulemap"
+OTHER_LDFLAGS = $(inherited) -ObjC
+OTHER_SWIFT_FLAGS = $(inherited) -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/KalturaNetKit/KalturaNetKit.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Log/Log.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/PlayKit/PlayKit.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/PlayKitUtils/PlayKitUtils.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON/SwiftyJSON.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftyXMLParser/SwiftyXMLParser.modulemap"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/KalturaNetKit" "${PODS_CONFIGURATION_BUILD_DIR}/Log" "${PODS_CONFIGURATION_BUILD_DIR}/PlayKit" "${PODS_CONFIGURATION_BUILD_DIR}/PlayKitUtils" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftyXMLParser"

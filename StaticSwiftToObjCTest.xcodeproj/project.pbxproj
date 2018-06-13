@@ -15,6 +15,10 @@
 		6906DAB420D13C2900C88E9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906DAB320D13C2900C88E9A /* main.m */; };
 		6906DABE20D13C2900C88E9A /* StaticSwiftToObjCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906DABD20D13C2900C88E9A /* StaticSwiftToObjCTestTests.m */; };
 		6906DAC920D13C2900C88E9A /* StaticSwiftToObjCTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906DAC820D13C2900C88E9A /* StaticSwiftToObjCTestUITests.m */; };
+		6906DAD820D140BB00C88E9A /* Workaround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6906DAD720D140BB00C88E9A /* Workaround.swift */; };
+		925EEB4106BD01A832A0E254 /* libPods-StaticSwiftToObjCTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3011AB47D25E365877FD97 /* libPods-StaticSwiftToObjCTestUITests.a */; };
+		A13BED244D339B2CDFA2BF1C /* libPods-StaticSwiftToObjCTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B450E4A4A9908531B93CECC8 /* libPods-StaticSwiftToObjCTestTests.a */; };
+		B284CE1F3D6DF01059962170 /* libPods-StaticSwiftToObjCTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC1AF6A4E8CA51F3B44E239D /* libPods-StaticSwiftToObjCTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A841F24DCC60AEB529361E4 /* Pods-StaticSwiftToObjCTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticSwiftToObjCTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticSwiftToObjCTest/Pods-StaticSwiftToObjCTest.debug.xcconfig"; sourceTree = "<group>"; };
+		38F53551892B5189B0382E16 /* Pods-StaticSwiftToObjCTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticSwiftToObjCTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticSwiftToObjCTestUITests/Pods-StaticSwiftToObjCTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6906DAA120D13C2700C88E9A /* StaticSwiftToObjCTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaticSwiftToObjCTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6906DAA420D13C2700C88E9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6906DAA520D13C2700C88E9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,15 @@
 		6906DAC420D13C2900C88E9A /* StaticSwiftToObjCTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaticSwiftToObjCTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6906DAC820D13C2900C88E9A /* StaticSwiftToObjCTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StaticSwiftToObjCTestUITests.m; sourceTree = "<group>"; };
 		6906DACA20D13C2900C88E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6906DAD620D140BB00C88E9A /* StaticSwiftToObjCTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StaticSwiftToObjCTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		6906DAD720D140BB00C88E9A /* Workaround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workaround.swift; sourceTree = "<group>"; };
+		7835BE0A221B0F15B7945D78 /* Pods-StaticSwiftToObjCTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticSwiftToObjCTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticSwiftToObjCTestUITests/Pods-StaticSwiftToObjCTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78AF15F927780A93BDDD2408 /* Pods-StaticSwiftToObjCTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticSwiftToObjCTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaticSwiftToObjCTestTests/Pods-StaticSwiftToObjCTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FFFB699E3935E605035EE9 /* Pods-StaticSwiftToObjCTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticSwiftToObjCTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticSwiftToObjCTest/Pods-StaticSwiftToObjCTest.release.xcconfig"; sourceTree = "<group>"; };
+		B450E4A4A9908531B93CECC8 /* libPods-StaticSwiftToObjCTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaticSwiftToObjCTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1AF6A4E8CA51F3B44E239D /* libPods-StaticSwiftToObjCTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaticSwiftToObjCTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F92FAE352869F1D1B827D5 /* Pods-StaticSwiftToObjCTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaticSwiftToObjCTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaticSwiftToObjCTestTests/Pods-StaticSwiftToObjCTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		FE3011AB47D25E365877FD97 /* libPods-StaticSwiftToObjCTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StaticSwiftToObjCTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B284CE1F3D6DF01059962170 /* libPods-StaticSwiftToObjCTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13BED244D339B2CDFA2BF1C /* libPods-StaticSwiftToObjCTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925EEB4106BD01A832A0E254 /* libPods-StaticSwiftToObjCTestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5F7CA8EFD55701C7710C38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A841F24DCC60AEB529361E4 /* Pods-StaticSwiftToObjCTest.debug.xcconfig */,
+				A4FFFB699E3935E605035EE9 /* Pods-StaticSwiftToObjCTest.release.xcconfig */,
+				78AF15F927780A93BDDD2408 /* Pods-StaticSwiftToObjCTestTests.debug.xcconfig */,
+				F3F92FAE352869F1D1B827D5 /* Pods-StaticSwiftToObjCTestTests.release.xcconfig */,
+				7835BE0A221B0F15B7945D78 /* Pods-StaticSwiftToObjCTestUITests.debug.xcconfig */,
+				38F53551892B5189B0382E16 /* Pods-StaticSwiftToObjCTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		428A33623F01F2AACB3D5C4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC1AF6A4E8CA51F3B44E239D /* libPods-StaticSwiftToObjCTest.a */,
+				B450E4A4A9908531B93CECC8 /* libPods-StaticSwiftToObjCTestTests.a */,
+				FE3011AB47D25E365877FD97 /* libPods-StaticSwiftToObjCTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6906DA9820D13C2700C88E9A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				6906DABC20D13C2900C88E9A /* StaticSwiftToObjCTestTests */,
 				6906DAC720D13C2900C88E9A /* StaticSwiftToObjCTestUITests */,
 				6906DAA220D13C2700C88E9A /* Products */,
+				2B5F7CA8EFD55701C7710C38 /* Pods */,
+				428A33623F01F2AACB3D5C4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +153,8 @@
 				6906DAAF20D13C2900C88E9A /* LaunchScreen.storyboard */,
 				6906DAB220D13C2900C88E9A /* Info.plist */,
 				6906DAB320D13C2900C88E9A /* main.m */,
+				6906DAD720D140BB00C88E9A /* Workaround.swift */,
+				6906DAD620D140BB00C88E9A /* StaticSwiftToObjCTest-Bridging-Header.h */,
 			);
 			path = StaticSwiftToObjCTest;
 			sourceTree = "<group>";
@@ -139,6 +184,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6906DACD20D13C2900C88E9A /* Build configuration list for PBXNativeTarget "StaticSwiftToObjCTest" */;
 			buildPhases = (
+				84CB04D0C8CFC3EEFFE193B3 /* [CP] Check Pods Manifest.lock */,
 				6906DA9D20D13C2700C88E9A /* Sources */,
 				6906DA9E20D13C2700C88E9A /* Frameworks */,
 				6906DA9F20D13C2700C88E9A /* Resources */,
@@ -156,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6906DAD020D13C2900C88E9A /* Build configuration list for PBXNativeTarget "StaticSwiftToObjCTestTests" */;
 			buildPhases = (
+				684991473204D7DCACBF8750 /* [CP] Check Pods Manifest.lock */,
 				6906DAB520D13C2900C88E9A /* Sources */,
 				6906DAB620D13C2900C88E9A /* Frameworks */,
 				6906DAB720D13C2900C88E9A /* Resources */,
@@ -174,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6906DAD320D13C2900C88E9A /* Build configuration list for PBXNativeTarget "StaticSwiftToObjCTestUITests" */;
 			buildPhases = (
+				42DDA6A951753A41BE2955EA /* [CP] Check Pods Manifest.lock */,
 				6906DAC020D13C2900C88E9A /* Sources */,
 				6906DAC120D13C2900C88E9A /* Frameworks */,
 				6906DAC220D13C2900C88E9A /* Resources */,
@@ -199,6 +247,7 @@
 				TargetAttributes = {
 					6906DAA020D13C2700C88E9A = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					6906DAB820D13C2900C88E9A = {
 						CreatedOnToolsVersion = 9.4;
@@ -257,6 +306,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42DDA6A951753A41BE2955EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StaticSwiftToObjCTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		684991473204D7DCACBF8750 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StaticSwiftToObjCTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84CB04D0C8CFC3EEFFE193B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StaticSwiftToObjCTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6906DA9D20D13C2700C88E9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -265,6 +371,7 @@
 				6906DAA920D13C2700C88E9A /* ViewController.m in Sources */,
 				6906DAB420D13C2900C88E9A /* main.m in Sources */,
 				6906DAA620D13C2700C88E9A /* AppDelegate.m in Sources */,
+				6906DAD820D140BB00C88E9A /* Workaround.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,8 +538,10 @@
 		};
 		6906DACE20D13C2900C88E9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A841F24DCC60AEB529361E4 /* Pods-StaticSwiftToObjCTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StaticSwiftToObjCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -441,14 +550,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eyz.StaticSwiftToObjCTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StaticSwiftToObjCTest/StaticSwiftToObjCTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		6906DACF20D13C2900C88E9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4FFFB699E3935E605035EE9 /* Pods-StaticSwiftToObjCTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StaticSwiftToObjCTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -457,13 +571,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eyz.StaticSwiftToObjCTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StaticSwiftToObjCTest/StaticSwiftToObjCTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		6906DAD120D13C2900C88E9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78AF15F927780A93BDDD2408 /* Pods-StaticSwiftToObjCTestTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StaticSwiftToObjCTestTests/Info.plist;
@@ -481,7 +599,9 @@
 		};
 		6906DAD220D13C2900C88E9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F92FAE352869F1D1B827D5 /* Pods-StaticSwiftToObjCTestTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StaticSwiftToObjCTestTests/Info.plist;
@@ -499,7 +619,9 @@
 		};
 		6906DAD420D13C2900C88E9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7835BE0A221B0F15B7945D78 /* Pods-StaticSwiftToObjCTestUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StaticSwiftToObjCTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -516,7 +638,9 @@
 		};
 		6906DAD520D13C2900C88E9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F53551892B5189B0382E16 /* Pods-StaticSwiftToObjCTestUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = StaticSwiftToObjCTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
